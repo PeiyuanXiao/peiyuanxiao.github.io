@@ -1,16 +1,21 @@
 ---
-title: "青藏高原东南部旧石器技术的多样性及相关问题"
+title: "Technological Diversity in the Paleolithic of the Southeastern Tibetan Plateau and Related Issues (in Chinese)"
 authors:
   - Qijun Ruan
   - Hao Li
-  - Jianxin Li
   - me
+  - Peiming Peng
+  - Qingyi Chen
+  - Yuqing Wang
+  - Zhenxiu Jia
+  - Junyi Li
+  - Jianhui Liu
 date: "2025-08-15"
 publication_types: ["article-journal"]
 categories:
   - Review paper
 publication:
-  name: "南方文物 (Cultural Relics in Southern China)"
+  name: "Cultural Relics Southern China"
   issue: 4
   pages: "148–160, 200"
 featured: false

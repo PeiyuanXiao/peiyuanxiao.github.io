@@ -1,5 +1,5 @@
 ---
-title: "中国西南基纳型旧石器中期技术的发现与研究进展"
+title: "Discovery and advances in the study of Middle Paleolithic Quina technology in southwest China (in Chinese)"
 authors:
   - me
   - Qijun Ruan
@@ -9,7 +9,7 @@ publication_types: ["article-journal"]
 categories:
   - Review paper
 publication:
-  name: "人类学学报 (Acta Anthropologica Sinica)"
+  name: "Acta Anthropologica Sinica"
   volume: 44
   issue: 6
   pages: "1009–1018"

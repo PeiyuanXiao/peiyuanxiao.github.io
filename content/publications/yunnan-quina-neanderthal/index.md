@@ -1,15 +1,19 @@
 ---
-title: "云南旧石器中期基纳技术的发现与中国尼安德特人问题讨论"
+title: "Middle Paleolithic Quina technology in Yunnan and the discussion of Neanderthals in China (in Chinese)"
 authors:
   - me
   - Qijun Ruan
   - Zhenxiu Jia
+  - Huan Xia
+  - Dongju Zhang
+  - Hao Li
+  - Fahu Chen
 date: "2025-09-01"
 publication_types: ["article-journal"]
 categories:
   - Review paper
 publication:
-  name: "科学通报 (Chinese Science Bulletin)"
+  name: "Chinese Science Bulletin"
   volume: 70
   issue: 27
   pages: "4785–4790"
