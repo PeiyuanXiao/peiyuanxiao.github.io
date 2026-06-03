@@ -12,6 +12,8 @@ authors:
   - Fahu Chen
 date: "2024-12-01"
 publication_types: ["article-journal"]
+categories:
+  - Review paper
 publication:
   name: "人类学学报 (Acta Anthropologica Sinica)"
   volume: 43

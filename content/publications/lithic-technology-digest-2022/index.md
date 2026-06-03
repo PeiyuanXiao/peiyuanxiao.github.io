@@ -5,6 +5,8 @@ authors:
   - Hao Li
 date: "2024-01-01"
 publication_types: ["chapter"]
+categories:
+  - Review paper
 publication:
   name: "世界考古研究动态（第二辑） [Frontiers in World Archaeology, Vol. 2], ed. Guolong Lai"
   publisher: "科学出版社 (Science Press)"

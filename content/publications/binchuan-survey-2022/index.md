@@ -12,6 +12,8 @@ authors:
   - Hao Li
 date: "2024-06-01"
 publication_types: ["article-journal"]
+categories:
+  - Excavation reports
 publication:
   name: "人类学学报 (Acta Anthropologica Sinica)"
   volume: 43

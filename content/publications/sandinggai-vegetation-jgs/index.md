@@ -10,6 +10,8 @@ authors:
   - me
 date: "2025-08-01"
 publication_types: ["article-journal"]
+categories:
+  - Research paper
 publication:
   name: "Journal of Geographical Sciences"
   volume: 35

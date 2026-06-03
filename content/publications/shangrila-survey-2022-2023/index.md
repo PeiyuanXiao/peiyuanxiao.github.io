@@ -6,6 +6,8 @@ authors:
   - Qijun Ruan
 date: "2025-08-15"
 publication_types: ["article-journal"]
+categories:
+  - Excavation reports
 publication:
   name: "南方文物 (Cultural Relics in Southern China)"
   issue: 4

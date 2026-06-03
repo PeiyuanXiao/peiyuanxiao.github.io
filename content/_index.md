@@ -27,28 +27,59 @@ sections:
       avatar:
         size: medium # small | medium | large | xl | xxl
         shape: circle # circle | square | rounded
-  - block: markdown
-    content:
-      title: '📚 Research'
-      subtitle: ''
-      text: |-
-        My work centers on **Paleolithic stone tools** — what they reveal about how early humans thought, planned, and adapted. I focus on the **Middle Paleolithic of East Asia**, using **quantitative** and **geometric-morphometric** methods to characterize lithic technological systems and reconstruct hominin behavior.
-
-        I care about **open science** — sharing data, code, and reproducible workflows so that analyses can be checked, reused, and built upon.
-
-        Always glad to discuss collaborations 😃
-    design:
-      columns: '1'
   - block: collection
-    id: papers
+    id: featured-publications
     content:
-      title: Publications
+      title: Featured Publications
       filters:
         folders:
           - publications
+        featured_only: true
+      count: 3
+      archive:
+        enable: false
     design:
-      view: article-grid
-      columns: 2
+      view: card
+      columns: 3
+  - block: collection
+    id: research-papers
+    content:
+      title: Research Papers
+      filters:
+        folders:
+          - publications
+        category: Research paper
+      count: 0
+      archive:
+        enable: false
+    design:
+      view: publication-compact
+  - block: collection
+    id: review-papers
+    content:
+      title: Review Papers
+      filters:
+        folders:
+          - publications
+        category: Review paper
+      count: 0
+      archive:
+        enable: false
+    design:
+      view: publication-compact
+  - block: collection
+    id: excavation-reports
+    content:
+      title: Excavation Reports
+      filters:
+        folders:
+          - publications
+        category: Excavation reports
+      count: 0
+      archive:
+        enable: false
+    design:
+      view: publication-compact
   - block: collection
     id: talks
     content:

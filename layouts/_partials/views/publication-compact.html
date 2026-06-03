@@ -1,0 +1,57 @@
+{{ $item := .item }}
+{{ $year_value := $item.Params.event_start | default $item.Date }}
+{{ $year := (time $year_value).Format "2006" }}
+{{ $pub := partial "functions/resolve_publication.html" $item }}
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+
+<article class="publication-compact-item">
+  <div class="publication-compact-main">
+    <h3 class="publication-compact-title">
+      <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
+    </h3>
+
+    {{ with $item.Params.authors }}
+      <div class="publication-compact-authors">
+        {{ $authors := . }}
+        {{ if not (reflect.IsSlice $authors) }}{{ $authors = slice $authors }}{{ end }}
+        {{ range $index, $raw := $authors }}
+          {{ $slug := $raw | urlize }}
+          {{ $profile := partial "functions/get_author_profile" (dict "slug" $slug "title" $raw) }}
+          {{ $display := $profile.title | default $raw }}
+          {{ if gt $index 0 }}, {{ end }}
+          {{ if eq $slug "me" }}<strong>{{ $display }}</strong>{{ else }}{{ $display }}{{ end }}
+        {{ end }}
+      </div>
+    {{ end }}
+
+    <div class="publication-compact-meta">
+      <span>{{ $year }}</span>
+      {{ with $pub.display_short }}
+        <span>{{ . | markdownify }}</span>
+      {{ end }}
+    </div>
+
+    {{ if $has_attachments }}
+      <div class="publication-compact-links">
+        {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      </div>
+    {{ end }}
+  </div>
+
+  <a class="publication-compact-image" href="{{ $item.RelPermalink }}" aria-label="{{ $item.Title | plainify }}">
+    {{ with $resource }}
+      {{ $canProcess := and (reflect.IsImageResourceProcessable .) (ne .MediaType.SubType "gif") }}
+      {{ if $canProcess }}
+        {{ $thumb := .Fill "240x160 Center" }}
+        <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" decoding="async" alt="{{ $item.Title | plainify }} featured image">
+      {{ else }}
+        <img src="{{ .RelPermalink }}" loading="lazy" decoding="async" alt="{{ $item.Title | plainify }} featured image">
+      {{ end }}
+    {{ else }}
+      <span class="publication-compact-placeholder">
+        {{ partial "functions/get_icon" (dict "name" "document-text" "attributes" "class='publication-compact-placeholder-icon'") }}
+      </span>
+    {{ end }}
+  </a>
+</article>

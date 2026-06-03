@@ -13,10 +13,30 @@ status:
   icon: "🪨"
 role: PhD student in Archaeology
 bio: |
-  I am a PhD student specializing in Paleolithic archaeology. My research
-  focuses on lithic technology analysis, with an emphasis on the technological
-  behaviors of humans during the Middle Paleolithic. My goal is to reconstruct
-  the technological strategies of hominins through quantitative data analysis.
+  Welcome to my website!
+
+  I am a PhD student in archaeology at the Institute of Tibetan Plateau Research,
+  Chinese Academy of Sciences. I am currently a visiting student in the Department
+  of Anthropology at the University of Washington. My supervisors are
+  [Professor Hao Li](https://itpcas.cas.cn/sourcedb_itpcas_cas/cn/expert/202412/t20241202_7449229.html)
+  and [Professor Ben Marwick](https://faculty.washington.edu/bmarwick/).
+
+  My research focuses on Middle Paleolithic technological behavior and human
+  adaptation in East Asia. During my master's studies, I investigated Quina
+  retouch in Southwest China. In my doctoral research, I am examining core
+  reduction technology across a broader region of China.
+
+  Methodologically, I am particularly interested in quantitative approaches. My
+  current work mainly combines 3D geometric morphometric analysis with data
+  analysis in R and Python. I believe that quantitative methods represent an
+  important direction for the future development of Paleolithic archaeology, as
+  they allow us to better understand past human technological behavior and
+  cognitive decision-making from a more objective perspective.
+
+  I am also strongly committed to [Open Science](https://en.wikipedia.org/wiki/Open_science).
+  By making data and code openly available, I hope to contribute to making lithic
+  study more reproducible and, in the long term, to supporting the development of
+  truly large-scale data-driven research in Paleolithic archaeology.
 
 affiliations:
   - name: 'Institute of Tibetan Plateau Research, CAS'
@@ -50,13 +70,15 @@ links:
 education:
   - degree: PhD in Archaeology
     institution: Institute of Tibetan Plateau Research, CAS
-    start: 2024-09-01
-    summary: 'Paleolithic archaeology; lithic technology and quantitative analysis.'
-  - degree: MA in History
-    institution: IVPP, CAS
-    start: 2021-09-01
-    end: 2024-06-30
-  - degree: BSc in Agriculture
+    year: "2024.09-"
+    start: 2024-09
+  - degree: MA in Archaeology
+    institution: Institute of Vertebrate Paleontology and Paleoanthropology, CAS
+    year: "2021.09-2024.06"
+    start: 2021-09
+    end: 2024-06
+  - degree: BSc in Animal Science
     institution: Nanjing Agricultural University
-    start: 2017-09-01
-    end: 2021-06-30
+    year: "2017.09-2021.06"
+    start: 2017-09
+    end: 2021-06
