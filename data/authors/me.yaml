@@ -5,15 +5,15 @@ name:
   display: Peiyuan Xiao
   given: Peiyuan
   family: Xiao
-  alternate: '肖培源'   # Chinese name (shown as alternate)
+  alternate: '肖培源'
   pronunciation: ''
   pronouns: he/him
 postnominals: []
 status:
-  icon: "🗿"
-role: PhD Student in Archaeology
+  icon: "🪨"
+role: PhD student in Archaeology
 bio: |
-  I am a Ph.D. student specializing in Paleolithic archaeology. My research
+  I am a PhD student specializing in Paleolithic archaeology. My research
   focuses on lithic technology analysis, with an emphasis on the technological
   behaviors of humans during the Middle Paleolithic. My goal is to reconstruct
   the technological strategies of hominins through quantitative data analysis.
@@ -21,12 +21,13 @@ bio: |
 affiliations:
   - name: 'Institute of Tibetan Plateau Research, CAS'
     url: http://www.itpcas.ac.cn/
-  - name: 'University of Washington · Anthropology (Visiting)'
+  - name: 'University of Washington · Anthropology'
     url: https://anthropology.washington.edu/
 
 interests:
   - Human Behavior
-  - Quantitative Lithic Analysis
+  - Lithic Technology
+  - Quantitative Analysis
   - Open Science
   - Geometric Morphometrics
 

@@ -75,3 +75,5 @@ npm-debug.log*
 .Rhistory
 .RData
 .Ruserdata
+.Rproj.user
+.Rproj.user
