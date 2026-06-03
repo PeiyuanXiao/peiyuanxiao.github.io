@@ -7,7 +7,7 @@ authors:
 date: "2025-09-01"
 publication_types: ["article-journal"]
 categories:
-  - Research paper
+  - Review paper
 publication:
   name: "科学通报 (Chinese Science Bulletin)"
   volume: 70

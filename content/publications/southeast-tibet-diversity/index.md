@@ -8,7 +8,7 @@ authors:
 date: "2025-08-15"
 publication_types: ["article-journal"]
 categories:
-  - Research paper
+  - Review paper
 publication:
   name: "南方文物 (Cultural Relics in Southern China)"
   issue: 4
