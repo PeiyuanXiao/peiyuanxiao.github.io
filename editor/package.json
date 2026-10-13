@@ -1,0 +1,16 @@
+{
+  "name": "academic-cv-editor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local form-based editor for this website's publications, talks and profile",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs --open",
+    "test": "node test.mjs"
+  },
+  "dependencies": {
+    "htm": "^3.1.1",
+    "preact": "^10.27.2",
+    "yaml": "^2.9.1"
+  }
+}
