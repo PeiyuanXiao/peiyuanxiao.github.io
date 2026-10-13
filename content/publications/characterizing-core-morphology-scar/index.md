@@ -28,4 +28,12 @@ links:
     url: "https://doi.org/10.17605/OSF.IO/ D82C5"
   - type: "code"
     url: "https://github.com/PeiyuanXiao/SPHARM_analysis"
+  - type: "preprint"
+    url: "https://www.researchsquare.com/article/rs-10196043/v1"
+tags:
+  - Computational archaeology
+  - Geometric morphometrics
+  - Spherical harmonic
+  - 3D lithic analysis
+  - Core reduction strategy
 ---
